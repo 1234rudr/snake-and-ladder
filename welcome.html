@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>snale and ladder</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <style>
+        body{
+            background: url('game1.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            
+        }
+        .btn{
+            box-shadow: 0 0 5px cyan,0 0 25px cyan;
+        }
+        .btn:hover{
+            box-shadow: 0 0 5px cyan,
+            0 0 25px cyan , 0 0 50px cyan,
+            0 0 100px cyan , 0 0 200px cyan;
+
+        }
+        .container-fluid{
+            position: relative;
+            top: 48vh;
+            left: 15vh;
+        }
+    </style>
+</head>
+<body>
+   <div class="container-fluid">
+       <a href="snake.html"><p class="btn btn-lg bg-dark text-light">click here to start the game</p></a>
+       <!-- <audio src="win.mp3"></audio> -->
+   </div>
+   <!-- <script>
+     let a = document.querySelector("p");
+     let b=  document.querySelector("audio")
+     a.addEventListener("click",function(){
+       b.play();
+     })
+        
+   </script> -->
+</body>
+</html>
